@@ -1,0 +1,59 @@
+.benefits-parent {
+  padding: 2em;
+}
+
+.benefits-row {
+  display: flex;
+}
+
+.benefits-header {
+  padding: 3em;
+  text-shadow: 2px 3px 20px rgb(83, 78, 78);
+}
+
+.benefits-h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 1em 0;
+}
+
+.benefits-p {
+  font-size: 1.5rem;
+  opacity: 50%;
+  max-width: 950px;
+}
+
+.benefit-card {
+  padding: 3em;
+}
+
+.benefit-icon {
+  margin: 1em 0;
+}
+
+.benefit-title {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.benefit-blurb {
+  margin: 1.5em 0;
+  line-height: 1.5em;
+  opacity: 50%;
+}
+
+@media screen and (max-width: 750px) {
+  .benefits-row {
+    flex-direction: column;
+  }
+
+  .benefit-card {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  .benefits-header {
+    text-align: center;
+  }
+}

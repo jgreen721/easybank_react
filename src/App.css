@@ -28,6 +28,8 @@
 .app-content {
   position: relative;
   transform: translateY(5em);
+  width: 100%;
+  overflow: hidden;
   /* border: 2px solid red; */
   /* width: 100%; */
   /* padding-left: 2em; */

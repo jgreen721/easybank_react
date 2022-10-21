@@ -1,8 +1,10 @@
 .top-section-parent {
   display: flex;
-  height: 400px;
+  height: 600px;
   width: 100%;
-  overflow: hidden;
+  /* overflow-x: hidden; */
+  overflow-y: visible;
+  /* min-width: 1000px; */
 }
 
 .top-col {
@@ -58,7 +60,7 @@
 
 .mockup-img {
   position: absolute;
-  z-index: 5;
+  z-index: 15;
   top: 0;
   left: 0;
   height: 135%;
@@ -71,11 +73,13 @@
   .top-section-parent {
     flex-direction: column;
     height: 800px;
+    /* min-width: unset; */
   }
 
   .top-col {
     width: 100%;
     height: 50%;
+    /* border: 2px solid red; */
   }
 
   .top-col:nth-child(1) {
